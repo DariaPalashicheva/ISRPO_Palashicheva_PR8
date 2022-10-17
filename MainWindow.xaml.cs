@@ -24,5 +24,10 @@ namespace ISRPO_Palashicheva_PR8
         {
             InitializeComponent();
         }
+
+        private void Schet_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
