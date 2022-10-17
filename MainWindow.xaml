@@ -1,0 +1,18 @@
+﻿<Window x:Class="ISRPO_Palashicheva_PR8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISRPO_Palashicheva_PR8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="X0" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251" FontSize="18"/>
+            <TextBox x:Name="Xk" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
+            <TextBox x:Name="Dx" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
+            <TextBox x:Name="A" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
