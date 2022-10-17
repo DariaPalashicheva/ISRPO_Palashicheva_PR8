@@ -8,13 +8,13 @@
         Title="MainWindow" Height="900" Width="800">
     <Grid>
         <StackPanel Margin="0,0,0,112">
-            <TextBox x:Name="X0" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18"/>
-            <TextBox x:Name="Xk" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
-            <TextBox x:Name="Dx" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
-            <TextBox x:Name="A" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
-            <TextBox x:Name="A_Copy" HorizontalAlignment="Left" Height="479" Margin="25,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
+            <TextBox x:Name="X0" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" Text="1"/>
+            <TextBox x:Name="Xk" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472" Text="4"/>
+            <TextBox x:Name="Dx" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472" Text="0,2"/>
+            <TextBox x:Name="A" HorizontalAlignment="Left" Height="35" Margin="346,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251" FontSize="18" RenderTransformOrigin="0.517,-0.472" Text="0,75"/>
+            <TextBox x:Name="X" HorizontalAlignment="Left" Height="479" Margin="25,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
         </StackPanel>
-        <TextBox x:Name="A_Copy1" HorizontalAlignment="Left" Height="479" Margin="399,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
+        <TextBox x:Name="У" HorizontalAlignment="Left" Height="479" Margin="399,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontSize="18" RenderTransformOrigin="0.517,-0.472"/>
         <Button x:Name="Schet" Content="Вычислить" HorizontalAlignment="Left" Margin="257,777,0,0" VerticalAlignment="Top" Width="244" FontSize="18" Click="Schet_Click" Height="32"/>
         <TextBlock HorizontalAlignment="Left" Margin="288,27,0,0" TextWrapping="Wrap" Text="X0" VerticalAlignment="Top" Height="30" Width="44" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="288,81,0,0" TextWrapping="Wrap" Text="Xk" VerticalAlignment="Top" Height="30" Width="44" FontSize="18"/>
