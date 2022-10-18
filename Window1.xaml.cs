@@ -38,7 +38,7 @@ namespace ISRPO_Palashicheva_PR8
 
             double x = x0;
 
-            while (x <= (xk + dx / 2))
+            while (x >= (xk + dx / 2))
             {
                 double y = x + (Math.Sqrt(Math.Abs(Math.Pow(x,3)+a-b*(Math.Exp(x)))));
 
